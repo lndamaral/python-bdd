@@ -44,8 +44,5 @@
 
 ### Test Execution
 
-    ```shell
     cd path/to/python-bdd/automated_testes
-
     behave --no-captures
-    ```
