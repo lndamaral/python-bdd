@@ -5,13 +5,13 @@
  1. Cloning the repository:
 
     ```shell
-    git clone https://<your-username>@bitbucket.org/python-bdd.git
+    git clone https://github.com/lndamaral/python-bdd.git
     ```
 
 2. Installing all the dependencies:
 
     ```shell
-    cd path/to/automated_testes
+    cd path/to/python-bdd/automated_testes
 
     pip install -r requirements.txt
     ```
@@ -38,12 +38,14 @@
             <files>.py 
 
         steps/                           #Folder where classes that implement step definitions according to features.
-            ..._step.py
-            ..._step.py
-            ..._step.py
+            <files>_step.py
+            <files>_step.py
+            <files>_step.py
 
 ### Test Execution
 
-    cd path/to//automated_testes
+    ```shell
+    cd path/to/python-bdd/automated_testes
 
     behave --no-captures
+    ```
