@@ -1,4 +1,5 @@
 Feature: List user info
+list user description
 
     Scenario: Check if exists name, username and email
         When we get all users
