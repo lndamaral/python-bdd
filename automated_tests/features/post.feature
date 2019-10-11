@@ -1,4 +1,5 @@
 Feature: Save posts
+save post descriptions
 
     Scenario: Saving a new post
         Given we have a user id
